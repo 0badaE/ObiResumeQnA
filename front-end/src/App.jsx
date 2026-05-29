@@ -4,6 +4,8 @@ import {
   CLIENT_ID,
   GITHUB_REPO_URL,
   GitHubButton,
+  RESUME_URL,
+  ResumeButton,
   STORAGE_KEY,
   StageCopy,
   WebchatComposer,
@@ -51,6 +53,7 @@ function App() {
   return (
     <main className="experience-shell">
       <WebchatTheme />
+      <ResumeButton href={RESUME_URL} />
       <GitHubButton href={GITHUB_REPO_URL} />
 
       <section className="agent-stage" aria-label="Botpress webchat">

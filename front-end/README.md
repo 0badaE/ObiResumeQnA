@@ -17,7 +17,7 @@ The app gives recruiters, hiring managers, and interviewers a focused place to a
 
 - **React 19**: UI rendering and component composition.
 - **Vite 8**: Local development server and production build tooling.
-- **@botpress/webchat 4**: Botpress React webchat library, including `useWebchat`, `Container`, `Header`, `MessageList`, `Composer`, and `StylesheetProvider`.
+- **@botpress/webchat**: Botpress React webchat library, including `useWebchat`, `Container`, `Header`, `MessageList`, `Composer`, and `StylesheetProvider`.
 - **CSS**: Custom responsive layout, dark editorial styling, avatar sizing, and Webchat class overrides.
 - **ESLint**: JavaScript and React linting.
 
@@ -39,18 +39,6 @@ src/
     WebchatTheme.jsx          Botpress StylesheetProvider wrapper
     webchatConfig.js          Client ID, storage key, GitHub URL, and bot metadata
 ```
-
-## Configuration
-
-Update these values in `src/components/webchatConfig.js`:
-
-```js
-export const CLIENT_ID = 'ddc146a4-fccb-4a5e-9e08-b1205eb1d62f';
-export const STORAGE_KEY = 'obada-portfolio-webchat';
-export const GITHUB_REPO_URL = 'https://github.com/';
-```
-
-`botConfig` controls Obi's display name, avatar, and short description inside the Botpress webchat header and message list.
 
 ## Local Development
 

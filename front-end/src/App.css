@@ -39,15 +39,14 @@
   opacity: 0.45;
 }
 
-.github-button {
+.top-action {
   position: fixed;
-  z-index: 3;
   top: 18px;
-  right: 18px;
+  z-index: 3;
   display: inline-flex;
-  gap: 8px;
   align-items: center;
   justify-content: center;
+  gap: 8px;
   min-height: 38px;
   padding: 0 12px;
   border: 1px solid rgba(246, 241, 231, 0.18);
@@ -67,18 +66,26 @@
     box-shadow 160ms ease;
 }
 
-.github-button:hover {
+.top-action--left {
+  left: 18px;
+}
+
+.top-action--right {
+  right: 18px;
+}
+
+.top-action:hover {
   background: #ffffff;
   box-shadow: 0 18px 42px rgba(0, 0, 0, 0.34);
   transform: translateY(-1px);
 }
 
-.github-button:focus-visible {
+.top-action:focus-visible {
   outline: 2px solid var(--signal);
   outline-offset: 3px;
 }
 
-.github-button__icon {
+.top-action__icon {
   width: 18px;
   height: 18px;
   flex: 0 0 auto;

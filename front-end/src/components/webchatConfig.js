@@ -2,7 +2,9 @@ export const CLIENT_ID = 'ddc146a4-fccb-4a5e-9e08-b1205eb1d62f';
 
 export const STORAGE_KEY = 'obada-portfolio-webchat';
 
-export const GITHUB_REPO_URL = 'https://github.com/';
+export const GITHUB_REPO_URL = 'https://github.com/0badaE/ObiResumeQnA';
+
+export const RESUME_URL = '/assets/ObadaResume26.pdf';
 
 export const botConfig = {
   botName: 'Obi',
